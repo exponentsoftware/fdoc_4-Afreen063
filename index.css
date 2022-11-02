@@ -6,21 +6,23 @@ li{
     color: white;
 }
 .left{
+    font-size: small;
     float: right;
     padding-left: 50px ;
-    padding-top: 20px;
+    padding-top: 0px;
+    padding-right: 20px;
     text-align: center;
     font-size: 25px;
 }
 
 ul{
     list-style: none;
-    
+    padding-top: 50px;
 }
  #name{
     float: left;
     color: white;
-    padding-top: 10px;
+   
     padding-left: 20px;
     font-size: 50px;    
 }
@@ -91,7 +93,7 @@ hr{
     background-color: rgb(234, 234, 83);
     border-radius: 30px;
 }
-.firstpg .pagetwo .page3 .page4{
+.firstpg .pagetwo .page3 .page4 .lspg{
     width: 500px;
     height: 500px;
 }
@@ -163,4 +165,28 @@ hr{
     display: flex;
     flex-direction: row;
 }
-
+.lspg{
+    background-color: rgb(225, 225, 205);
+}
+.lscnt{
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 100px;
+}
+.lsh3{
+    text-align: center;
+    padding-top: 50px;
+}
+.lsch{
+    padding-left: 20px;
+    width: 50%;
+}
+.cm{
+    border: solid white 3px;
+    border-radius: 40px;
+    
+    padding: 5px 10px 5px 10px;
+}
